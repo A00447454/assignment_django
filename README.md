@@ -19,9 +19,9 @@ Response:
 ```
 ## Post: Add new hotel into the database.
 
-parameters: id (int) - ID number- Primary key
-            name(String)- Hotel name
-            price(Float)- Price of the room per night   
+parameters: * id (int) - ID number- Primary key
+            * name(String)- Hotel name
+            * price(Float)- Price of the room per night   
             
 http://localhost:8000/hotel_list/
 
