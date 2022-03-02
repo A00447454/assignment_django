@@ -8,7 +8,7 @@ A00447454
 http://localhost:8000/hotel_list/
 
 Response: 
-'''
+```
 [
     {
         "id": 7,
@@ -16,7 +16,7 @@ Response:
         "price": 3405
     }
 ]
-'''
+```
 ## Post: Add new hotel into the database.
 
 parameters: id (int) - ID number- Primary key
@@ -26,17 +26,17 @@ parameters: id (int) - ID number- Primary key
 http://localhost:8000/hotel_list/
 
 Example:
-'''
+```
 {
     "id": 7,
     "name":"Taj",
     "price":3405
 }
-'''
+```
 
 Response: 
-'''
+```
 {
     "Message": "Added Successfully"
 }
-'''
+```
